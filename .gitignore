@@ -1,0 +1,9 @@
+# Binaries and other executable files
+/bin/
+/tmp/
+
+# Log files
+*.log
+
+# Environment files
+.env
