@@ -10,6 +10,13 @@ Instructions on how to install the task manager.
 
 Examples of how to use the task manager.
 
+```
+docker compose up -d
+docker attach go-cli-task-manager-taskmanager-1
+```
+
+Write `exit` when wanting to exit the CLI.
+
 ## Contributing
 
 Guidelines for contributing to the project.

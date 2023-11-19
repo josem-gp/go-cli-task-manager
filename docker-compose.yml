@@ -2,6 +2,8 @@ version: '3.8'
 services:
   taskmanager:
     build: .
+    stdin_open: true   # Keep stdin open
+    tty: true          # Allocate pseudo-TTY
     ports:
       - "8080:8080"
     depends_on:
